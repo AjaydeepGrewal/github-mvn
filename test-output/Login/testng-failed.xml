@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Transfer-1(failed)">
+    <parameter name="Username" value="dodge413"/>
+    <parameter name="Password" value="12341234a"/>
+    <classes>
+      <class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+        <methods>
+          <include name="teardown"/>
+          <include name="destroy"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="SendTransfer"/>
+        </methods>
+      </class> <!-- Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice -->
+    </classes>
+  </test> <!-- Transfer-1(failed) -->
+</suite> <!-- Failed suite [Login] -->

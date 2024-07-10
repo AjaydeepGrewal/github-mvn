@@ -1,0 +1,16 @@
+[
+    {
+        "CustomError": "NetworkError-1707916232",
+        "StackTraceErrors": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "CustomError": "Login Service Down",
+        "StackTraceErrors": [
+            "C",
+            "Login service down at the backend"
+        ]
+    }
+]

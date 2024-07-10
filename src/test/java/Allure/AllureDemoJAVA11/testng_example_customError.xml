@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login">
+<listeners>
+     <listener class-name="Allure.AllureDemoJAVA11.Listener"/>
+</listeners> 
+	<test name="Custom Error" parallel = "tests" thread-count="1">
+	
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.CustomErrorDemo">
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

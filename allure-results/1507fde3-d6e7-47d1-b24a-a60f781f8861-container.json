@@ -1,0 +1,1 @@
+{"uuid":"1507fde3-d6e7-47d1-b24a-a60f781f8861","name":"Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice.destroy","description":"","start":1719349468789,"stop":1719349468849,"children":["3515949d-f036-4a70-b847-436aac36650e"],"afters":[{"name":"destroy","status":"passed","stage":"finished","description":"","start":1719349468789,"stop":1719349468849}]}

@@ -1,0 +1,1 @@
+{"uuid":"63a3d76f-1be2-4b54-a346-d0fb519c3acf","name":"Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice.setup","description":"","start":1719349425317,"stop":1719349425376,"children":["3515949d-f036-4a70-b847-436aac36650e"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","start":1719349425317,"stop":1719349425375}]}

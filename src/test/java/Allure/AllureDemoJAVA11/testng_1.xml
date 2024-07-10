@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login" parallel = "tests" thread-count="5">
+	<test name="Transfer-1" enabled="true">
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.NewTest">
+			</class>
+		</classes>
+	</test>
+	
+	<!--  <test name="Transfer-2" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-3" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-4" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-5" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-6" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-7" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-8" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-9" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Transfer-10" enabled="true">
+	<parameter name="Username" value="mtautobody"/>
+	<parameter name="Password" value="12341234a"/>
+		<classes>
+			<class name="Allure.AllureDemoJAVA11.HNB_ConsumerRealDevice">
+			</class>
+		</classes>
+	</test>-->
+
+
+</suite> <!-- Suite -->
