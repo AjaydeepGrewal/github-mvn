@@ -3,15 +3,15 @@ on: push
 jobs: 
   test:
     runs-on: ubuntu-latest
-	steps:
-	  - name: Checkout code
-	    uses: actions/checkout@v4
-	  - name: Install java
-	    uses: actions/setup-java@v4
-        with:
-   		distribution: 'zulu' # See 'Supported distributions' for available options
-   		java-version: '11'
+		steps:
+	  	- name: Checkout code
+	    	uses: actions/checkout@v4
+	  	- name: Install java
+	    	uses: actions/setup-java@v4
+        	with:
+   			distribution: 'zulu' # See 'Supported distributions' for available options
+   			java-version: '11'
    	  - name: Clean and Install
    	    run: mvn clean install
       - name: Run test
-    	run: mvn test -Dtestsuite=src/test/java/Allure/AllureDemoJAVA11/testng_1.xml
+    		run: mvn test -Dtestsuite=src/test/java/Allure/AllureDemoJAVA11/testng_1.xml
