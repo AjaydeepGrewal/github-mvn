@@ -145,7 +145,7 @@
 				<version>3.3.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<file>${testsuite}</file>
+						<file>src/test/java/Allure/AllureDemoJAVA11/testng_1.xml</file>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
