@@ -6,11 +6,11 @@ jobs:
     steps:
      - name: Checkout code
        uses: actions/checkout@v4
-     - name: Install java
+     - name: Install JAVA
        uses: actions/setup-java@v4
        with:
-         java-version: '11'
-   	 distribution: 'zulu'
+          distribution: 'zulu' # See 'Supported distributions' for available options
+          java-version: '11'
      - name: Clean and Install
        run: mvn clean install
      - name: Run test
